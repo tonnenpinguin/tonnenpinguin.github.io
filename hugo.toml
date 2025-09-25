@@ -1,0 +1,58 @@
+baseURL = 'https://tonnenpinguin.github.io/'
+languageCode = 'en-uk'
+title = 'Tonnenpinguin Solutions'
+
+[module]
+[[module.imports]]
+path = "github.com/lordmathis/hugo-theme-nightfall"
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+[menu]
+[[menu.header]]
+name = "blog"
+weight = 0
+url = "blog"
+
+[[menu.header]]
+name = "about"
+weight = 1
+url = "about"
+
+[params]
+user = "berni"
+hostname = "tonnenpinguin.github.io"
+displayDateFormat = "02.01.2006"
+showReadingTime = false
+
+[params.author]
+name = "tonnenpinguin"
+avatar = "/avatar.png"
+avatarSize = "size-m"
+email = "office@tonnenpinguin.solutions"
+avatarFirst = false
+
+[[params.social]]
+key = 0
+name = "github"
+url = "https://github.com/tonnenpinguin"
+icon = "fa-brands fa-github"
+target = "_blank"
+aria = "GitHub Profile"
+
+[[params.social]]
+key = 1
+name = "linkedin"
+url = "https://www.linkedin.com/in/bernhard-hackl/"
+icon = "fa-brands fa-linkedin"
+target = "_blank"
+aria = "LinkedIn Profile"
+
+[[params.social]]
+key = 1
+name = "email"
+icon = "fa-solid fa-envelope"
+url = "mailto:office@tonnenpinguin.solutions"

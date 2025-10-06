@@ -24,13 +24,13 @@ url = "about"
 
 [params]
 user = "berni"
-hostname = "tonnenpinguin.github.io"
+hostname = "tonnenpinguin.solutions"
 displayDateFormat = "02.01.2006"
 showReadingTime = false
 
 [params.author]
 name = "tonnenpinguin"
-avatar = "/avatar.png"
+avatar = "/avatar.svg"
 avatarSize = "size-m"
 email = "office@tonnenpinguin.solutions"
 avatarFirst = false
@@ -39,7 +39,7 @@ avatarFirst = false
 key = 0
 name = "github"
 url = "https://github.com/tonnenpinguin"
-icon = "fa-brands fa-github"
+icon = "fa-brands fa-github fa-2x"
 target = "_blank"
 aria = "GitHub Profile"
 
@@ -47,12 +47,12 @@ aria = "GitHub Profile"
 key = 1
 name = "linkedin"
 url = "https://www.linkedin.com/in/bernhard-hackl/"
-icon = "fa-brands fa-linkedin"
+icon = "fa-brands fa-linkedin fa-2x"
 target = "_blank"
 aria = "LinkedIn Profile"
 
 [[params.social]]
-key = 1
+key = 2
 name = "email"
-icon = "fa-solid fa-envelope"
+icon = "fa-solid fa-envelope fa-2x"
 url = "mailto:office@tonnenpinguin.solutions"

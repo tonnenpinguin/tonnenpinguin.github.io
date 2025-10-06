@@ -12,5 +12,7 @@ hugo.linux
 frontmatter.json
 .vscode/
 
+.DS_Store
+
 # Temporary lock file while building
 /.hugo_build.lock
